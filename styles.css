@@ -3,9 +3,22 @@ body {
 }
 
 nav {
-  background-color: rgba(97, 164, 142, 0.361);
+  margin-top: 0;
+  background-color:rgba(206, 173, 237, 0.557);
   border-radius: 20px;
   min-height: 100px;
+  margin-bottom: 75px;
+}
+
+a {
+  text-decoration: none;
+  background-color:rgba(72, 169, 137, 0.799);
+  padding: 25px;
+  border-radius: 25px;
+}
+
+a:hover {
+  background-color:rgb(124, 214, 214);
 }
 
 ul {
@@ -17,6 +30,15 @@ ul {
   justify-content: space-evenly;
 }
 
+main 
+{
+  background-color: rgba(206, 173, 237, 0.557);
+  border-radius: 25px;
+  padding: 20px;
+  height: fit-content;
+  margin-bottom: 75px;
+  }
+
 section {
   display: flex;
   flex-direction: column;
@@ -27,4 +49,49 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+article {
+  padding: 25px;
+}
+
+footer { 
+  border-radius: 25px;
+  background-color: rgba(206, 173, 237, 0.557);
+  height: fit-content;
+}
+
+p { 
+  padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1 {text-align: center;}
+
+  main {
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+  }
+
+  .artikkel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  footer {height:fit-content;}
+
+  ul 
+  {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  li 
+  {
+    padding: 30px;
+    width:max-content;
+  }
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color: beige;
 }
 
 .mainbox {
@@ -14,11 +14,15 @@ body {
   justify-content: space-evenly;
 }
 
+
 nav {
-  background-color: aquamarine;
+  margin-top: 0;
+  margin-bottom: 75px;
+  background-color:rgba(206, 173, 237, 0.557);
   min-height: 100px;
   border-radius: 25px;
 }
+
 
 ul {
   list-style-type: none;
@@ -27,3 +31,55 @@ ul {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+a {
+  background-color: rgba(72, 169, 137, 0.799);
+  padding: 25px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {color:rgba(72, 169, 137, 0.799);}
+
+a:hover { background-color: rgb(124, 214, 214);}
+
+article { 
+  background-color: rgba(206, 173, 237, 0.557);
+  border-radius: 25px;
+  min-height: 300px;
+  min-width: 300px;
+  margin: 25px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) 
+{
+.mainbox {
+flex-direction: column; }
+
+.mainbox2 {
+flex-direction: column;
+}
+
+nav 
+{
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: max-content;
+}
+
+li {
+  padding: 40px;
+} }
