@@ -12,19 +12,16 @@ nav {
 }
 
 
-
-li {
-  display: flex;
-  justify-self: space-evenly;
-    list-style-type: none;
-}
-
 a {
     background-color: rgba(72, 169, 137, 0.799);
+    margin: 15px;
     padding: 25px;
     border-radius: 25px;
     text-decoration: none;
   }
+
+  a:hover {background-color:rgb(124, 214, 214);;
+}
 
 main { 
     display: flex;
@@ -34,7 +31,9 @@ main {
   section
   {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     background-color: rgba(206, 173, 237, 0.557);
     border-radius: 25px;
     height: 300px;

@@ -2,6 +2,10 @@ body {
   background-color: beige;
 }
 
+header {
+display: flex;
+justify-content: center;}
+
 nav {
   margin-top: 0;
   background-color:rgba(206, 173, 237, 0.557);
@@ -49,6 +53,12 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+#postkasse {
+float:inline-start;
+max-width: 10rem;
+padding: 15px;
 }
 
 article {
