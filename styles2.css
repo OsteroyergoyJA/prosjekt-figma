@@ -12,6 +12,7 @@ body {
   float: right;
   min-width:5rem;
   max-width: 10rem;
+  height: 9rem;
 }
 
 .mainbox2 {
@@ -19,12 +20,13 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   margin-left: 10vw;
-  margin-right: 10vw;}
+  margin-right: 10vw;
+  height: fit-content;
+}
 
 #data {
   float: left;
-  min-width: 5rem;
-  max-width: 10rem;
+  height: 11rem;
 }
 
 nav {
@@ -62,8 +64,8 @@ a:hover { background-color: rgb(124, 214, 214);}
 article { 
   background-color: rgba(206, 173, 237, 0.557);
   border-radius: 15px;
-  min-height: 300px;
-  min-width: 300px;
+  height: auto;
+  width: auto;
   margin: 25px;
   text-align: center;
 }
@@ -71,7 +73,7 @@ article {
 @media only screen and (max-width: 600px) 
 {
 .mainbox {
-flex-direction: column; }
+flex-direction: column;}
 
 .mainbox2 {
 flex-direction: column;
@@ -96,4 +98,6 @@ ul {
 
 li {
   padding: 40px;
-} }
+}
+
+}
