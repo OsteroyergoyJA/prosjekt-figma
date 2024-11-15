@@ -92,6 +92,8 @@ article {
     padding: 40px;
   }
 
+#about {display: none;}
+
 .mainbox {
 flex-direction: column;}
 

@@ -104,6 +104,9 @@ p {padding: 10px;}
     padding: 30px;
     width:max-content;
   }
+
+#home {display: none;}
+
  #postkasse {min-width: 5rem;}
 
 }
