@@ -13,6 +13,7 @@ body {
   min-width:5rem;
   max-width: 10rem;
   height: 9rem;
+  padding: 5px;
 }
 
 .mainbox2 {
@@ -27,6 +28,7 @@ body {
 #data {
   float: left;
   height: 11rem;
+  padding: 5px;
 }
 
 nav {
@@ -70,34 +72,34 @@ article {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 700px) 
 {
+  nav 
+  {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: max-content;
+  }
+  
+  li {
+    padding: 40px;
+  }
+
 .mainbox {
 flex-direction: column;}
 
 .mainbox2 {
-flex-direction: column;
-margin-left: 0vw;
-margin-right: 0vw;
-}
-
-nav 
-{
-  display: flex;
-  justify-content: center;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-ul {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: max-content;
-}
-
-li {
-  padding: 40px;
+  margin-left: 0vw;
+  margin-right: 0vw;
 }
 
 }
+
